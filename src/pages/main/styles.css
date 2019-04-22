@@ -1,0 +1,71 @@
+.product-list {
+  margin: 20px 10%;
+}
+
+.product-list article {
+  background: #fff;
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin-bottom: 10px;
+}
+
+.product-list strong {
+  text-transform: uppercase;
+}
+
+.product-list p {
+  margin: 10px 0 15px 0;
+  font-size: 16px;
+  color: #999;
+  line-height: 24px;
+}
+
+.product-list a {
+  border: 2px solid #993399;
+  border-radius: 5px;
+  padding: 8px 20px;
+  color: #993399;
+  font-weight: bold;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.product-list a:hover {
+  background: #993399;
+  color: #fff;
+}
+
+.product-list .actions {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.product-list .actions button {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 0;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  background: #993399;
+  color: #fff;
+  cursor: pointer;
+}
+
+.product-list .actions button[disabled] {
+  opacity: 0.5;
+  cursor: default;
+}
+
+.product-list .actions button:hover {
+  background: #4e0f4e;
+}
+
+.product-list .actions button[disabled]:hover {
+  background: #993399;
+}
